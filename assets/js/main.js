@@ -14,6 +14,16 @@ const navbar = document.querySelector('.navbar');
         navbar.classList.toggle('show'); // Toggle the 'show' class
     });
 
+//navbar 2
+const navLinks = document.querySelectorAll('.navbar a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.forEach(nav => nav.classList.remove('active'));
+    link.classList.add('active');
+  });
+});
+
 //about page
 var tablinks = document.getElementsByClassName("tab-links");
 var tabcontents = document.getElementsByClassName("tab-contents");
