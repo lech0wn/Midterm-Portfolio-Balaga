@@ -536,38 +536,19 @@ section .title span::after{
     margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 600px){
-    .skills .container{
-        margin: 0;
-        padding: 0;
-    }
-
-    .skills .container .row{
-        grid-template-columns: repeat(2, 1fr);
-        margin: 1rem;
-        padding: 2rem 0.2rem 2rem 0.2rem;
-        gap: 1rem;
-    }
-    .skills .container{
-        margin-top: 5px;
-        width: 100%;
-    }
-}
-
 @media (max-width: 1024px) {
     .skills .container {
-        width: 95%; 
+        width: 95%;
         padding: 1.5rem;
     }
 
     .skills .container .row {
-        display: grid; 
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-        gap: 1rem; 
+        grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+        gap: 1.5rem;
     }
 
     .skills .container .bar .info span {
-        font-size: 1.4rem; 
+        font-size: 1.4rem;
     }
 }
 
