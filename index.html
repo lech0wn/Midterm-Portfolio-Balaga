@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annissa Balaga - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<!-- ==================== GOOGLE SHEETS FORM ==================== -->
+<!-- https://docs.google.com/spreadsheets/d/1orA3EURwCuZv-Ok9PO2F9i0OCQi7zhvnO6rFhks46u0/edit?usp=sharing -->
+
+<!-- ==================== REMIX ICON IMPORT ==================== -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" 
+integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <!-- ==================== NAVIGATION MENU ==================== -->
+    <header class="header">
+        <a href="#" class="logo" data-aos="zoom-in" data-aos-duration="1500">Annissa</a>
+        
+        <i class="ri-align-justify" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" class="active">Home</a>
+            <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">About</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">Skills</a>
+            <a href="#projects" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Projects</a>
+            <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- ==================== HOME ==================== -->
+    <section class="home" id="home">
+        <div class="home-img" data-aos="zoom-out" data-aos-duration="1500">
+            <img src="/assets/img/face/4.jpg" alt="">
+        </div>
+            <div class="home-content" >
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hello! I am <span>Annissa</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">I'm a <span class="typewriter-text"></span></div>
+
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="700">
+                    I'm a second-year Computer Science major focusing on Software Engineering.
+                    I have a solid foundation in programming and design, and I am passionate 
+                    about exploring new technologies and collaborating on projects.</p>
+
+                <div class="social-links">
+                    <a href="https://web.facebook.com/a.f.ramones.balaga/" target="_blank"
+                    data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="https://github.com/lech0wn" target="_blank"
+                    data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="ri-github-fill"></i></a>
+                    <a href="https://www.instagram.com/annissa_balaga/" target="_blank"
+                    data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://www.linkedin.com/in/annissa-bal-12b9a3351/" target="_blank" 
+                    data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-left">
+                    <img src="assets/img/face/1.jpg" data-aos="zoom-out" data-aos-duration="1500" alt="">
+                </div>
+                <div class="about-right">
+                    <h1 class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></h1>
+                    <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="100">
+                        My name is Annissa Freida R. Balaga. I am currently studying
+                        Bachelor of Computer Science, majoring in Software Engineering.
+                        Learning new things has always been a passion of mine. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('aboutme')"
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"
+                            >More About Me</p>
+
+                            <p class="tab-links" onclick="opentab('info')"
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"
+                            >Personal Information</p>
+
+                            <p class="tab-links" onclick="opentab('education')" 
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"
+                            >Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="aboutme">
+                            <ul>
+                                <li><h4
+                                    data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"
+                                    >"Learning New Things Is My Hobby"</h4><br>
+                                <p
+                                data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600"
+                                >I love diving into activities that challenge me and 
+                                    take time to master, like playing the guitar, dancing, 
+                                    designing posters, or even cross-stitching. Each hobby 
+                                    teaches me patience, creativity, and the joy of improvement.</p><br>
+                                <p
+                                data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"
+                                >What stands out to me the most is coding. I love how it combines logic and creativity, like solving a 
+                                    puzzle where every piece builds something meaningful. It’s challenging, but that’s what makes it exciting. 
+                                    Whether it’s creating a website or automating a task, coding feels like endless possibilities.</p><br>
+                                <p
+                                data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">For me, learning isn’t just a hobby, it’s a way to grow, push my limits, 
+                                    and discover new passions. It’s what keeps life exciting.</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="info">
+                            <ul>
+                                <li><span >Name</span><br>Annissa Freida R. Balaga</li>
+                                <li><span>Age</span><br> 20 years old</li>
+                                <li><span>Nationality</span><br> Filipino</li>
+                                <li><span>Date of Birth</span><br> June 15, 2004</li>
+                                <li><span>Civil Status</span><br> Single</li>
+                                <li><span>Religion</span><br> Catholic</li>
+                                
+       
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023 - Current </span><br> Bachelor of Science in
+                                Computer Science - Major in Software Engineering at iAcademy Cebu</li>
+                                <li><span>2021 - 2023</span> <br> STEM Strand at University of San Carlos</li>
+                                <li><span>2016 - 2020</span> <br> Sacred Heart School - Hijas de Jesus</li>
+
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS ==================== -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Skills</span></div>
+            <div class="container">
+                <div class="row" id="skills-container">
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="100">
+                        <div class="info">
+                            <img src="/assets/img/skills/figma.png" alt="Figma">
+                            <span>Figma</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="info">
+                            <img src="/assets/img/skills/ai.png" alt="Illustrator">
+                            <span>Illustrator</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">
+                        <div class="info">
+                            <img src="/assets/img/skills/pr.png" alt="Premiere">
+                            <span>Premiere</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="400">
+                        <div class="info">
+                            <img src="/assets/img/skills/ps.png" alt="Photoshop">
+                            <span>Photoshop</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="500">
+                        <div class="info">
+                            <img src="/assets/img/skills/cpp.png" alt="C++">
+                            <span>C++</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="600">
+                        <div class="info">
+                            <img src="/assets/img/skills/java.png" alt="Java">
+                            <span>Java</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="700">
+                        <div class="info">
+                            <img src="/assets/img/skills/html.png" alt="HTML">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="800">
+                        <div class="info">
+                            <img src="/assets/img/skills/css.png" alt="CSS">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+    
+                    <div class="bar" data-aos="flip-down" data-aos-duration="1500" data-aos-delay="900">
+                        <div class="info">
+                            <img src="/assets/img/skills/js.png" alt="JavaScript">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>   
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <section class="projects" id="projects">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Projects</span></div>
+        <h3>Coding Projects</h3>
+        <div class="projects-container">
+ 
+         <div class="project-box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+             <div class="project-info" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                 <h4>Restaurant Management System using Java</h4>
+                 <h5>worked with: Charisse Alagbay, Deniella Ching, Jarod Rebalde</h5>
+                 <p>In this group project, I handled the backend development, focusing on 
+                    the database and core functionality. I designed and managed the database to 
+                    store meals, inventory, and orders. I implemented features like adding, editing, 
+                    and deleting meals, managing inventory, and processing orders. I also worked 
+                    on sorting and filtering categories to make data retrieval efficient.</p>
+                     <a href="#"></a>
+             </div>
+         </div>
+
+        <div class="project-video">
+            <video width="1280" height="720" controls muted>
+                <source src="assets/img/projects/Java Junction.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+        </div>
+ 
+        </div>
+        
+        <h3>Graphic Design Projects</h3>
+        <div id="portfolio">
+         <div class="container">
+             <div class="work-list">
+ 
+                 <div class="work" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+                     <img src="assets/img/projects/Art App Independence Day.png" alt="Art App Independence Day">
+                     <div class="layer">
+                         <h3>Independence Day Poster</h3>
+                         <h4>used Photoshop</h4>
+                         <p>This poster celebrates Philippine Independence Day in 1898. 
+                            It features Filipino heroes who played a big role in the 
+                            country’s freedom.</p>
+                     </div>
+                 </div>
+                 
+                 <div class="work" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                     <img src="assets/img/projects/Jose Rizal Brutalism.png" alt="Jose Rizal">
+                     <div class="layer">
+                         <h3>Jose Rizal Poster</h3>
+                         <h4>used Photoshop</h4>
+                         <p>This poster honors Jose Rizal, a Filipino hero. 
+                            The design mixes old and modern styles to show his 
+                            lasting impact. It highlights his role in inspiring Filipinos 
+                            to fight for their freedom.</p>
+                     </div>
+                 </div>
+ 
+                 <div class="work" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
+                     <img src="assets/img/projects/The Weeknd.jpg" alt="The Weeknd">
+                     <div class="layer">
+                         <h3>The Weeknd Poster</h3>
+                         <h4>used Photoshop and Illustrator</h4>
+                         <p>This poster is based on The Weeknd’s "After Hours" album. It has 
+                            a dark and dramatic look, with glitch effects and bold text. The 
+                            design reflects the album’s themes of heartbreak and mystery.</p>
+                     </div>
+                 </div>
+ 
+             </div>
+         </div>
+     </div>
+        
+     </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section class="contact" id="contact">
+        <div class="content">
+                <div class="contact-details">
+                    <div class="left">
+                        <div class="contact-title" data-aos="flip-up" data-aos-duration="1500">Contact <span>Me</span></div>
+                        <p data-aos="flip-up" data-aos-duration="1500"><i class="ri-send-plane-fill"></i>annissabal@gmail.com</p>
+                        <p data-aos="flip-up" data-aos-duration="1500"><i class="ri-phone-fill"></i>+63 915 667 4772</p>
+
+                        <div class="social-links">
+                            <a href="https://web.facebook.com/a.f.ramones.balaga/" target="_blank" 
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><i class="ri-facebook-box-fill"></i></a>
+                            <a href="https://github.com/lech0wn" target="_blank" 
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><i class="ri-github-fill"></i></a>
+                            <a href="https://www.instagram.com/annissa_balaga/" target="_blank" 
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><i class="ri-instagram-fill"></i></a>
+                            <a href="https://www.linkedin.com/in/annissa-bal-12b9a3351/" target="_blank" 
+                            data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><i class="ri-linkedin-box-fill"></i></a>
+                        </div>
+                            <a href="assets/img/cv.pdf" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" download class="button button2">Download CV</a>
+                        
+                    </div>
+
+                    <div class="right">
+                        <div class="contact-msg">Send Me A Message!</div>
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="button button2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="text">
+            <span>Created By
+                <a href="#">Annissa Balaga</a>
+                | &#169; 2025 All Rights Reserved
+            </span>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html> 
